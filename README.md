@@ -41,11 +41,38 @@ Metrics reported on held-out test set:
 - Recall
 - F1-score
 - ROC-AUC
+  
 
 Additional analysis:
 - Confusion matrix
 - ROC curve (per model + overlay)
 - Failure case visualization
+
+## Per-Model Evaluation Plots
+
+### EfficientNet-B0
+- Confusion Matrix  
+  ![](outputs_compare/efficientnet_b0/confusion_matrix.png)
+- ROC Curve  
+  ![](outputs_compare/efficientnet_b0/roc_curve.png)
+- Failure Cases  
+  ![](outputs_compare/efficientnet_b0/failure_grid.png)
+
+### ResNet-18
+- ![](outputs_compare/resnet18/confusion_matrix.png)
+- ![](outputs_compare/resnet18/roc_curve.png)
+- ![](outputs_compare/resnet18/failure_grid.png)
+
+### Vision Transformer (ViT-Tiny)
+- ![](outputs_compare/vit_tiny/confusion_matrix.png)
+- ![](outputs_compare/vit_tiny/roc_curve.png)
+- ![](outputs_compare/vit_tiny/failure_grid.png)
+
+### MambaNet
+- ![](outputs_compare/mambanet/confusion_matrix.png)
+- ![](outputs_compare/mambanet/roc_curve.png)
+- ![](outputs_compare/mambanet/failure_grid.png)
+
 
 ## How to Run
 
