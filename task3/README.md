@@ -45,7 +45,7 @@ Each visualization shows:
 - Query image (or text prompt)
 - Top-k retrieved images with ground-truth labels and similarity scores
 
-## Notes / Limitations
+## Notes 
 - PneumoniaMNIST images are low-resolution (28×28), which can limit fine-grained radiological similarity.
 - Precision@k uses binary labels; it measures class consistency, not full clinical equivalence.
 - The system is intended for research and educational purposes only (not for clinical diagnosis).
